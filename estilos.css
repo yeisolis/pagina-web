@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(to bottom, #e6f0fa, #ffffff);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal tipo “hoja de vida” */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fdfdfd;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Imagen centrada y redondeada */
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #003366;
+}
+
+/* Estilos de títulos */
+h1, h2, h3 {
+    color: #003366; /* Azul oscuro */
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Párrafos y texto general */
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Listas más organizadas */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left;
+    margin: 15px auto;
+    display: inline-block;
+}
+
+/* Cuadros para secciones */
+.section-box {
+    background-color: #f0f7ff;
+    border: 1px solid #cce0ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Tablas */
+table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    width: 90%;
+    background-color: #f0f7ff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+}
+
+/* Efectos suaves en subtítulos */
+.container h2 {
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.cuadro{
+    text-align: center;
+}
